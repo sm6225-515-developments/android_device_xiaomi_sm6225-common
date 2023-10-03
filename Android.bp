@@ -5,6 +5,10 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/qcom-caf/bootctrl",
+        "hardware/xiaomi",
+    ],
 }
 
 install_symlink {
