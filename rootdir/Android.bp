@@ -3,44 +3,46 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+// fstab
 prebuilt_etc {
     name: "fstab.qcom",
-    src: "fstab.qcom",
+    src: "etc/fstab.qcom",
     vendor: true,
     vendor_ramdisk_available: true,
 }
 
+// Init configuration files
 prebuilt_etc {
     name: "init.qcom.rc",
-    src: "init.qcom.rc",
+    src: "etc/init.qcom.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.qti.kernel.rc",
-    src: "init.qti.kernel.rc",
+    src: "etc/init.qti.kernel.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.recovery.qcom.rc",
-    src: "init.recovery.qcom.rc",
+    src: "etc/init.recovery.qcom.rc",
     sub_dir: "init",
     recovery: true,
 }
 
 prebuilt_etc {
     name: "init.target.rc",
-    src: "init.target.rc",
+    src: "etc/init.target.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
 
 prebuilt_etc {
     name: "init.xiaomi.rc",
-    src: "init.xiaomi.rc",
+    src: "etc/init.xiaomi.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -48,30 +50,31 @@ prebuilt_etc {
 prebuilt_etc {
     name: "ueventd.qcom.rc",
     filename: "ueventd.rc",
-    src: "ueventd.qcom.rc",
+    src: "etc/ueventd.qcom.rc",
     vendor: true,
 }
 
+// Init scripts
 sh_binary {
     name: "init.class_main.sh",
-    src: "init.class_main.sh",
+    src: "bin/init.class_main.sh",
     vendor: true,
 }
 
 sh_binary {
     name: "init.goodix.events.sh",
-    src: "init.goodix.events.sh",
+    src: "bin/init.goodix.events.sh",
     vendor: true,
 }
 
 sh_binary {
     name: "init.qcom.early_boot.sh",
-    src: "init.qcom.early_boot.sh",
+    src: "bin/init.qcom.early_boot.sh",
     vendor: true,
 }
 
 sh_binary {
     name: "init.qcom.sh",
-    src: "init.qcom.sh",
+    src: "bin/init.qcom.sh",
     vendor: true,
 }
