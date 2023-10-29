@@ -12,69 +12,11 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # ANT
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-<<<<<<< HEAD
 # Audio SoundFX
-=======
-# Audio
-system_ext/etc/permissions/audiosphere.xml
-system_ext/framework/audiosphere.jar
-vendor/bin/audioflacapp
-vendor/lib/hw/audio.primary.bengal.so
-vendor/lib/hw/audio.usb.bengal.so
->>>>>>> a0902ee (topaz: Move most agm and pal targets to source built)
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
-<<<<<<< HEAD
-=======
-vendor/lib/btaudio_offload_if.so
-vendor/lib/libadm.so
--vendor/lib/libagm.so
-vendor/lib/libalsautils.so
-vendor/lib/libar-acdb.so
-vendor/lib/libar-gpr.so
--vendor/lib/libar-gsl.so
--vendor/lib/libar-pal.so
-vendor/lib/libats.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libbatterylistener.so
-vendor/lib/libhfp_pal.so
-vendor/lib/liblx-ar_util.so
--vendor/lib/liblx-osal.so
-vendor/lib/libmcs.so
-vendor/lib/libqtigefar.so
-vendor/lib/libsndcardparser.so
--vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
--vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
-vendor/lib/vendor.qti.hardware.pal@1.0.so
-vendor/lib64/hw/audio.primary.bengal.so
-vendor/lib64/hw/audio.usb.bengal.so
->>>>>>> a0902ee (topaz: Move most agm and pal targets to source built)
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libshoebox.so
-<<<<<<< HEAD
-=======
-vendor/lib64/btaudio_offload_if.so
-vendor/lib64/libadm.so
--vendor/lib64/libagm.so
-vendor/lib64/libalsautils.so
-vendor/lib64/libar-acdb.so
-vendor/lib64/libar-gpr.so
--vendor/lib64/libar-gsl.so
--vendor/lib64/libar-pal.so
-vendor/lib64/libats.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libbatterylistener.so
-vendor/lib64/libhfp_pal.so
-vendor/lib64/liblx-ar_util.so
--vendor/lib64/liblx-osal.so
-vendor/lib64/libmcs.so
-vendor/lib64/liboffloadhal.so
-vendor/lib64/libqtigefar.so
-vendor/lib64/libsndcardparser.so
--vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
--vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.pal@1.0.so
->>>>>>> a0902ee (topaz: Move most agm and pal targets to source built)
 
 # Bluetooth - from sapphire V14.0.6.0.TNGMIXM
 system_ext/etc/bluetooth/leaudio_configs.xml|9bcdda1267740f85c1f3581697d20c2967f3f7a8
