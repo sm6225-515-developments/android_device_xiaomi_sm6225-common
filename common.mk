@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # API
-PRODUCT_SHIPPING_API_LEVEL := 33
 BOARD_SHIPPING_API_LEVEL := 33
 
 # Partitions
