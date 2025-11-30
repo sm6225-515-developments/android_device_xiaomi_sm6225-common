@@ -39,6 +39,26 @@ TARGET_CPU_VARIANT := cortex-a73
 TARGET_BOOTLOADER_BOARD_NAME := bengal
 TARGET_NO_BOOTLOADER := true
 
+# Boot
+BOARD_BOOT_HEADER_VERSION := 4
+BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
+BOARD_RAMDISK_USE_LZ4 := true
+
+# DTB
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+
+# Kernel
+BOARD_BOOTCONFIG := \
+    androidboot.hardware=qcom \
+    androidboot.memcg=1 \
+    androidboot.usbcontroller=e400000.dwc3
+
+BOARD_KERNEL_CMDLINE := \
+    video=vfb:640x400,bpp=32,memsize=3072000
+
+BOARD_KERNEL_PAGESIZE := 4096
+BOARD_USES_GENERIC_KERNEL_IMAGE := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
