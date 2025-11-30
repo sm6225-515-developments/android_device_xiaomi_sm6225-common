@@ -13,6 +13,7 @@ COMMON_PATH := device/xiaomi/sm6225-common
 AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
+    init_boot \
     boot \
     dtbo \
     odm \
@@ -20,6 +21,7 @@ AB_OTA_PARTITIONS += \
     recovery \
     system \
     system_ext \
+    system_dlkm \
     vbmeta \
     vbmeta_system \
     vendor \
