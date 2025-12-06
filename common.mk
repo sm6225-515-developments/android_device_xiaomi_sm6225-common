@@ -40,6 +40,14 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl:64
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
