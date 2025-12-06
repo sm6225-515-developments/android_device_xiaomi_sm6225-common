@@ -48,6 +48,9 @@ BOARD_RAMDISK_USE_LZ4 := true
 # DTB
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
+
 # Kernel
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
