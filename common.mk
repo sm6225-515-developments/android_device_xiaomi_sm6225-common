@@ -43,6 +43,14 @@ PRODUCT_PACKAGES += \
 # API
 BOARD_SHIPPING_API_LEVEL := 33
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl:64
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
