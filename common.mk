@@ -57,3 +57,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Inherit Proprietary Vendor
+$(call inherit-product, vendor/xiaomi/sm6225-common/sm6225-common-vendor.mk)
